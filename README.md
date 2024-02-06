@@ -3,19 +3,23 @@ AIClap Light, or clap clap light using AI, an Esp32 with Arduino code
 
 Just Simple, 
 
--unzip the library in Documents/Arduino/libraries
+🛠️ Installation Steps:
 
--run the .ino code to install on a ESP32
+Step 1: Set Up the Library
+Unzip the Library: Extract the library into Documents/Arduino/libraries.
+Step 2: Run the Code
+Install the Code: Execute the .ino file to install it on your ESP32.
 
-i use an I2s microphone INMP444, 
-which can not run at better sample rate and Depth than which in the code, 
-otherwise start having issues.
+🔧 Hardware Specifications:
 
-it works GREAT!
+Microphone Model: INMP444 I2s microphone.
+Optimal Performance: The provided code is finely tuned for the best sample rate and depth. Altering these settings may lead to issues.
 
-// Connections to INMP441 I2S microphone
+💡 It Works GREAT!
 
--WS to 25
--SD to 33
--SCK to 32
--L/R to GND
+📌 Microphone Connections:
+
+WS: Connect to pin 25
+SD: Connect to pin 33
+SCK: Connect to pin 32
+L/R: Ground (GND)
