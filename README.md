@@ -10,6 +10,7 @@ i use an I2s microphone INMP444, which can not run at better sample rate and Dep
 it works GREAT!
 
 // Connections to INMP441 I2S microphone
+
 -WS to 25
 -SD to 33
 -SCK to 32
